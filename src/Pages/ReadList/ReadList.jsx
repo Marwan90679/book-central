@@ -36,14 +36,14 @@ useEffect(()=>{
     <TabPanel>
     <div className="mt-10">
     {
-      readList.map(bookToRead=>
-      <div className="border flex rounded-xl">
+      readList.map((bookToRead,i)=>
+      <div key={i} className="border flex rounded-xl">
         <div className="bg-zinc-50 m-5 py-10 px-15 rounded-xl"><img className=" drop-shadow-neutral-600 drop-shadow-xl w-50 h-70 object-cover rounded-lg"  src={bookToRead.image} alt="" /></div>
         <div >
           <h3 className="mt-5">{bookToRead.bookName}</h3>
           <p>By : {bookToRead.author}</p>
-          <p>Tags : {bookToRead.tags.map(tag=>       
-            <div className="mr-3 badge bg-amber-300">#{tag}</div>)}
+          <p>Tags : {bookToRead.tags.map((tag,i)=>       
+            <div key={i} className="mr-3 badge bg-amber-300">#{tag}</div>)}
             </p>
             <div className="flex">
             <div className="flex space-x-2 items-center mr-2 justify-between">

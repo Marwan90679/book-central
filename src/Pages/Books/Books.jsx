@@ -13,7 +13,7 @@ const Books = ({data}) => {
          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
             
             {
-             data.map(book=><Book  key={book.bookId} book={book}></Book>)
+             data.map((book)=><Book  key={book.bookId} book={book}></Book>)
             }
          </div>
        </div>

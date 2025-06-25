@@ -12,7 +12,7 @@ const Book = ({book}) => {
             <div className='ml-5 mr-5 pb-3 space-y-3 border-b border-dashed  flex-1'>
            <div>
            {
-                tags.map(tag=><div className="bg-[#174b2e] mr-2  text-white badge badge-ghost">{tag}</div>
+                tags.map((tag,i)=><div key={i} className="bg-[#174b2e] mr-2  text-white badge badge-ghost">{tag}</div>
                     )
             }
            </div>
