@@ -1,12 +1,62 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📚 BookCentral
 
-## Expanding the ESLint configuration
+> ⚠️ *This project is a work in progress and not fully responsive for mobile or tablet devices.*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎯 Project Overview
+
+**BookCentral** is a dummy book management and review application designed to explore front-end development concepts. Built with **React 19**, **Tailwind CSS**, and **React Router**, it allows users to navigate between different book categories using a tab-based interface.
+
+---
+
+## 🚧 Status
+
+* ⛔ Not fully completed
+* 📵 Not optimized for mobile or tablet
+* 🧪 Built for learning and experimentation purposes
+
+---
+
+## 🔧 Tech Stack
+
+* **React 19**
+* **Tailwind CSS**
+* **React Router**
+* **React Tabs**
+* **DaisyUI**
+* **Vite**
+
+---
+
+## 📁 Features (Planned / Partially Implemented)
+
+* Browse books by category
+* Tab-based navigation
+* Clean and structured UI
+
+---
+
+## 📝 Notes
+
+* This is a **dummy project** meant for educational and portfolio purposes only.
+* No actual book data or real-world features are included.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/marwan90679/book-central.git
+cd book-central
+npm install
+npm run dev
+```
+
+---
+
+
