@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+
+.source-sans {
+  font-family: "Source Sans 3", sans-serif;
+ 
+}
+
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+
+}
